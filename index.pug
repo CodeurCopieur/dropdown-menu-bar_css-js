@@ -11,6 +11,54 @@ html(lang="en")
     link(rel="stylesheet", href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css")
   body
     
+    header.header
+      a.header__logo(href="#") CWK
+
+      .header__toggle
+        i.bx.bx-menu#header-toggle
+      
+      nav.nav#nav-menu
+        .nav__content.bg-grid
+          a.nav__profil(href="#")
+            .nav__img
+              img(src="https://codwerk.github.io/assets/images/logo_codwerk-new.png", alt="")
+            div
+              span.nav__name Dev 
+              span.nav__name Front-End
+          
+          .nav__menu
+            ul.nav__list
+                li.nav__item
+                  a(href="#").nav__link Home
+                li.nav__item.dropdown
+                  a(href="#").nav__link.dropdown__link About
+                    i.bx.bx-chevron-down.dropdown__icon
+
+                    ul.dropdown__menu
+                      li.dropdown__item
+                        a(href="#").nav__link link 1
+                      li.dropdown__item
+                        a(href="#").nav__link link 2
+                      li.dropdown__item
+                        a(href="#").nav__link link 3
+
+                li.nav__item
+                  a(href="#").nav__link Skills
+                li.nav__item.dropdown
+                  a(href="#").nav__link.dropdown__link Works
+                    i.bx.bx-chevron-down.dropdown__icon
+
+                    ul.dropdown__menu
+                      li.dropdown__item
+                        a(href="#").nav__link link 1
+                      li.dropdown__item
+                        a(href="#").nav__link link 2
+                      li.dropdown__item
+                        a(href="#").nav__link link 3
+                  
+                li.nav__item
+                  a(href="#").nav__link Contact
+
 
 
     //MAIN JS

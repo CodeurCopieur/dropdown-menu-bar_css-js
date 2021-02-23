@@ -11,6 +11,34 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css">
   </head>
   <body>
+    <header class="header"><a class="header__logo" href="#">CWK</a>
+      <div class="header__toggle"><i class="bx bx-menu" id="header-toggle"></i></div>
+      <nav class="nav" id="nav-menu">
+        <div class="nav__content bg-grid"><a class="nav__profil" href="#">
+            <div class="nav__img"><img src="https://codwerk.github.io/assets/images/logo_codwerk-new.png" alt=""></div>
+            <div><span class="nav__name">Dev </span><span class="nav__name">Front-End</span></div></a>
+          <div class="nav__menu">
+            <ul class="nav__list">
+              <li class="nav__item"><a class="nav__link" href="#">Home</a></li>
+              <li class="nav__item dropdown"><a class="nav__link dropdown__link" href="#">About<i class="bx bx-chevron-down dropdown__icon"></i>
+                  <ul class="dropdown__menu">
+                    <li class="dropdown__item"><a class="nav__link" href="#">link 1</a></li>
+                    <li class="dropdown__item"><a class="nav__link" href="#">link 2</a></li>
+                    <li class="dropdown__item"><a class="nav__link" href="#">link 3</a></li>
+                  </ul></a></li>
+              <li class="nav__item"><a class="nav__link" href="#">Skills</a></li>
+              <li class="nav__item dropdown"><a class="nav__link dropdown__link" href="#">Works<i class="bx bx-chevron-down dropdown__icon"></i>
+                  <ul class="dropdown__menu">
+                    <li class="dropdown__item"><a class="nav__link" href="#">link 1</a></li>
+                    <li class="dropdown__item"><a class="nav__link" href="#">link 2</a></li>
+                    <li class="dropdown__item"><a class="nav__link" href="#">link 3</a></li>
+                  </ul></a></li>
+              <li class="nav__item"><a class="nav__link" href="#">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
     <!--MAIN JS-->
     <script src="./assets/js/index.js"> </script>
   </body>
